@@ -26,7 +26,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       )
     }
 
-    let msg = await conn.reply(m.chat, '🍏 *Detectando canción...*\n\n▰▱▱▱▱▱▱▱▱▱ 10%', m)
+    let msg = await conn.reply(m.chat, '🐶 *Detectando canción...*\n\n▰▱▱▱▱▱▱▱▱▱ 10%', m)
 
     const etapas = [
       '▰▰▱▱▱▱▱▱▱▱ 20%',
@@ -37,14 +37,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       '▰▰▰▰▰▰▰▱▱▱ 70%',
       '▰▰▰▰▰▰▰▰▱▱ 80%',
       '▰▰▰▰▰▰▰▰▰▱ 90%',
-      '▰▰▰▰▰▰▰▰▰▰ 100%\n\n🌸 *Analizando coincidencias...*'
+      '▰▰▰▰▰▰▰▰▰▰ 100%\n\n🐶 *Analizando coincidencias...*'
     ]
 
     for (const barra of etapas) {
       await new Promise(res => setTimeout(res, 600))
       await conn.sendMessage(m.chat, {
         edit: msg.key,
-        text: `🍏 *Detectando canción...*\n\n${barra}`
+        text: `🐶 *Detectando canción...*\n\n${barra}`
       })
     }
 
@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     const video = yt.videos.length > 0 ? yt.videos[0] : null
 
     let info = `
-╭━━〔 𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿 〕━⬣
+╭━━〔 𝙎𝙞𝙛𝙪 𝘽𝙤𝙩 〕━⬣
 ┃ ✧ 𝐂𝐚𝐧𝐜𝐢ó𝐧 𝐃𝐞𝐭𝐞𝐜𝐭𝐚𝐝𝐚 ✧  
 ┃───────────────────
 ┃ 🎶 *𝐓𝐢𝐭𝐮𝐥𝐨:* ${title}

@@ -58,7 +58,7 @@ await conn.sendMessage(m.chat, {
       title: "Contacto Del Creador 👑",
       body: empresa,
       mediaType: 1,
-      thumbnailUrl: 'https://qu.ax/SFkxO.jpg', // Puedes cambiar la imagen
+      thumbnailUrl: 'https://files.catbox.moe/k4fknt.jpg', // Puedes cambiar la imagen
       renderLargerThumbnail: true,
       sourceUrl: canal
     }

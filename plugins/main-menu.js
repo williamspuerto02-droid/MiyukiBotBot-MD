@@ -341,7 +341,7 @@ let handler = async (m, { conn }) => {
 👑 © Powered By *OmarGranda*`
 
 /*    await conn.sendMessage(m.chat, {
-      video: { url: 'https://qu.ax/AjjHr.mp4' },
+      video: { url: 'https://files.catbox.moe/pr8jhc.mp4' },
       caption: menu,
       contextInfo: {
         mentionedJid: [mentionedJid],

@@ -14,7 +14,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       },
       message: {
         contactMessage: {
-          displayName: 'MiyukiBot-MD 🥵',
+          displayName: 'Sifu Bot 🥵',
           vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Miyuki;;;\nFN:Miyuki\nitem1.TEL;waid=0:0\nitem1.X-ABLabel:Bot\nEND:VCARD`
         }
       }

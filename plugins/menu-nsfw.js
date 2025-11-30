@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 const handler = async (m, { conn, usedPrefix }) => {
   try {
-    const img = 'https://qu.ax/TCKLQ.jpg'; 
+    const img = 'https://files.catbox.moe/zdnfvc.jpg'; 
     const taguser = '@' + m.sender.split('@')[0];
     const invisible = String.fromCharCode(8206).repeat(850);
 
@@ -21,7 +21,7 @@ const handler = async (m, { conn, usedPrefix }) => {
     };
 
     const str = `
-╭─❖ 🌹 𝐌𝐈𝐘𝐔𝐊𝐈𝐁𝐎𝐓 +𝟭𝟴 🌹 ❖─╮
+╭─❖ 🌹 𝐒𝐢𝐟𝐮 𝐁𝐨𝐭 +𝟭𝟴 🌹 ❖─╮
 │✨ Hola ${taguser}
 │🔥 Bienvenido al *Modo Picante*
 │${invisible}

@@ -77,7 +77,7 @@ END:VCARD`
 🕒 *Hora:* ${hora}
 
 📌 Usa _.menu_ para ver los comandos.
-> 🌸 MiyukiBot-MD | By OmarGranda
+> 🐶 Sifu Bot | By OmarGranda
 `
 
     const makeBye = (numeroUsuario) => `
@@ -93,7 +93,7 @@ END:VCARD`
 🕒 *Hora:* ${hora}
 
 🫶 Gracias por haber sido parte del grupo.
-> 🌸 MiyukiBot-MD | By OmarGranda
+> 🐶 Sifu Bot | By OmarGranda
 `
 
     // contexto "falso" para reply enriquecido

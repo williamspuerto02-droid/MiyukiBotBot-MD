@@ -1,6 +1,6 @@
 const handler = async (m, { conn, participants, groupMetadata, args }) => {
 
-  const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg')
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => 'https://files.catbox.moe/vplmne.jpg')
 
   const groupAdmins = participants.filter(p => p.admin === 'admin' || p.admin === 'superadmin')
   const listAdmin = groupAdmins.map(v => `● @${v.id.split('@')[0]}`).join('\n')

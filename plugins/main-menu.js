@@ -4,13 +4,13 @@ import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
   try {
-    await m.react('🌸')
+    await m.react('🐶')
     conn.sendPresenceUpdate('composing', m.chat)
 
     let mentionedJid = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     let totalCommands = Object.keys(global.plugins).length
     const iconos = [
-      'https://qu.ax/TPfmC.jpg'
+      'https://files.catbox.moe/dapzy2.jpg'
     ]
     const randomIcono = iconos[Math.floor(Math.random() * iconos.length)]
 
@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
     let hora = moment.tz('America/Lima').format('HH:mm:ss')
     let dia = moment.tz('America/Lima').format('dddd')
     let menu = `
-╭───── 🎄✨『 𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿 』✨🎄 ─────╮
+╭───── 🎄✨『 𝗦𝗜𝗳𝘂 𝗕𝗼𝘁 』✨🎄 ─────╮
 │ 🧑‍🎄 Usuario: *@${mentionedJid.split('@')[0]}*
 │ 🎁 Comandos: *${totalCommands}*
 │ 🌟 Versión: *${vs}*

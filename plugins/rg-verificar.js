@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
   const who = m.mentionedJid?.[0] || (m.fromMe ? conn.user.jid : m.sender)
   const pp = await conn.profilePictureUrl(who, 'image')
-    .catch(() => 'https://files.catbox.moe/xr2m6u.jpg')
+    .catch(() => 'https://urli.info/1jf9u')
   const user = global.db.data.users[m.sender]
   const displayName = conn.getName(m.sender)
 
@@ -37,7 +37,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     ]
 
     return conn.sendMessage(m.chat, {
-      image: { url: 'https://qu.ax/mCcQs.jpg' },
+      image: { url: 'https://urli.info/1jf9u' },
       caption: texto,
       mentions: [m.sender],
       footer: dev,
@@ -66,7 +66,7 @@ Ejemplo: ${usedPrefix + command} ${displayName}.18
     ]
 
     return conn.sendMessage(m.chat, {
-      image: { url: 'https://qu.ax/iNweS.jpg' },
+      image: { url: 'https://urli.info/1jf8Z' },
       caption: mensaje,
       mentions: [m.sender],
       footer: dev,
@@ -143,10 +143,10 @@ Ejemplo: ${usedPrefix + command} ${displayName}.18
         newsletterName: channelRD.name
       },
       externalAdReply: {
-        title: '𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿',
+        title: '𝙎𝙞𝙛𝙪 𝘽𝙤𝙩',
         body: 'Verificando registro...',
         mediaType: 1,
-        thumbnailUrl: 'https://qu.ax/NtBCa.jpg',
+        thumbnailUrl: 'https://files.catbox.moe/dapzy2.jpg',
         mediaUrl: redes,
         sourceUrl: redes,
         renderLargerThumbnail: false

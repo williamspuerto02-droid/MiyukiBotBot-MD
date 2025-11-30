@@ -40,7 +40,7 @@ export async function before(m, { conn }) {
     let user = global.db.data.users[m.sender];
 
     if (chat?.isBanned) {
-      const avisoDesactivado = `╭─── MiyukiBot-MD ───╮
+      const avisoDesactivado = `╭─── SifuBot-MD ───╮
 │ ⚙️ El bot está *desactivado* en este grupo.
 │ 🕓 Espera a que un *admin* lo active.
 │ 💡 Usa: *${usedPrefix}bot on*
@@ -51,7 +51,7 @@ export async function before(m, { conn }) {
         mentions: [m.sender],
         contextInfo: {
           externalAdReply: {
-            title: 'MiyukiBot-MD',
+            title: '𝗦𝗶𝗳𝘂 𝗕𝗼𝘁',
             body: '© Powered by OmarGranda',
             thumbnailUrl: icono,
             sourceUrl: 'https://github.com/OmarGranda',

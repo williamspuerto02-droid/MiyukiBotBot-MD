@@ -8,7 +8,7 @@ const { generateWAMessageFromContent, prepareWAMessageMedia, proto } = pkg
 var handler = m => m
 handler.all = async function (m) { 
 global.canalIdM = ["120363422169517881@newsletter", "120363422169517881@newsletter"]
-global.canalNombreM = ["༺✮•°◤ 𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿 🌸 ◥°•✮༻ ", "༺✮•°◤ 𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿 🌸 ◥°•✮༻"]
+global.canalNombreM = ["✵.｡.✰ 𝕊𝕚𝕗𝕦 𝔹𝕠𝕥 ✰.｡.✵"]
 global.channelRD = await getRandomChannel()
 
 global.d = new Date(new Date + 3600000)
@@ -36,9 +36,9 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [
-'https://qu.ax/ysajW.jpg',
-'https://qu.ax/wfNjl.jpg', 
-'https://qu.ax/uFmuj.jpg' 
+'https://files.catbox.moe/k4fknt.jpg',
+'https://files.catbox.moe/dapzy2.jpg', 
+'https://files.catbox.moe/fdv4u9.jpg' 
 ].getRandom()
 
 

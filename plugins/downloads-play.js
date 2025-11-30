@@ -35,7 +35,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 ┃ 🔗 *Enlace:* ${url}
 ┗━━━━━━━━🎁━━━━━━━━┛
 
-✨🎶 Que este temón te saque el espíritu navideño aunque no quieras uwu 😎🌟`
+✨🎶 Que este temón te saque el espíritu navideño aunque no quieras`
 
     const thumb = (await conn.getFile(thumbnail)).data
     await conn.sendMessage(m.chat, { image: thumb, caption: info, ...fake }, { quoted: fkontak })

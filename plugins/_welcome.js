@@ -29,7 +29,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     // precarga de thumbnail (seguro)
     let thumbBuffer = Buffer.alloc(0)
     try {
-      thumbBuffer = await fetch('https://files.catbox.moe/crdknj.jpg')
+      thumbBuffer = await fetch('https://urli.info/1eruR')
         .then(r => r.buffer())
     } catch (e) {
       thumbBuffer = Buffer.alloc(0)

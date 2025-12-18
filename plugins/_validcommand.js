@@ -18,7 +18,7 @@ export async function before(m, { conn }) {
     },
     message: {
       locationMessage: {
-        name: `MiyukiBot-MD`,
+        name: `𝗦𝗜𝗳𝘂 𝗕𝗼𝘁`,
         jpegThumbnail: thumbBuffer
       }
     },
@@ -85,7 +85,7 @@ export async function before(m, { conn }) {
     mentions: [m.sender],
     contextInfo: {
       externalAdReply: {
-        title: 'MiyukiBot-MD',
+        title: '𝗦𝗜𝗳𝘂 𝗕𝗼𝘁',
         body: '© Powered by OmarGranda',
         thumbnailUrl: thumb,
         sourceUrl: 'https://instagram.com',

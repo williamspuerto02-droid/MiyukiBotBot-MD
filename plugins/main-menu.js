@@ -30,20 +30,20 @@ let handler = async (m, { conn }) => {
     let hora = moment.tz('America/Lima').format('HH:mm:ss')
     let dia = moment.tz('America/Lima').format('dddd')
     let menu = `
-╭───── 🎄✨『 𝗦𝗜𝗳𝘂 𝗕𝗼𝘁 』✨🎄 ─────╮
-│ 🧑‍🎄 Usuario: *@${mentionedJid.split('@')[0]}*
-│ 🎁 Comandos: *${totalCommands}*
-│ 🌟 Versión: *${vs}*
-│ 🎄 Librería: *${libreria}*
+╭───── 🐶『 𝗦𝗜𝗳𝘂 𝗕𝗼𝘁 』─🐶─────╮
+│ 👤 Usuario: *@${mentionedJid.split('@')[0]}*
+│ 💼 Comandos: *${totalCommands}*
+│ ⚙️ Versión: *${vs}*
+│ 📚 Librería: *${libreria}*
 │ 🤖 Modo: *${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')}*
-│ ⛄ Uptime: *${uptime}*
+│ ⌛ Uptime: *${uptime}*
 ╰────────────────────────────────╯
 
-╭── ❄️💾 « ESTADO DEL SISTEMA » 💾❄️ ──╮
-│ 🎄 RAM Total: *${total} MB*
-│ 🔔 RAM En uso: *${used} MB*
-│ 🎁 RAM Libre: *${free} MB*
-│ ✨ Ping actual: *${ping} ms*
+╭── 🐶💾 « ESTADO DEL SISTEMA » 💾🐶 ──╮
+│ 💻 RAM Total: *${total} MB*
+│ 📈 RAM En uso: *${used} MB*
+│ 📉 RAM Libre: *${free} MB*
+│ ⚡Ping actual: *${ping} ms*
 ╰────────────────────────────────╯
 
 ╭─━━━💰 𝐌𝐄𝐍𝐔 𝐄𝐂𝐎𝐍𝐎𝐌𝐈́𝐀 💰
